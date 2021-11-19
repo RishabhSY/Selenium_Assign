@@ -7,7 +7,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 
-@Listeners(SeleniumAssignment.ListenersImplementation.class)
+@Listeners(SeleniumAssignment.listener_implementation.class)
 public class Q11thQ12th_testListner extends Base {
 	@Test(retryAnalyzer = retrying_setup.class)
 	public void TestListener1() throws IOException {
